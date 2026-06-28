@@ -53,7 +53,15 @@ useSeoMeta({
       <footer class="shrink-0 border-t border-default py-3">
         <UContainer>
           <p class="text-center text-sm text-muted">
-            Copyright &copy; {{ new Date().getFullYear() }} Upamanyu Pathare.
+            Copyright &copy; {{ new Date().getFullYear() }} Upamanyu Pathare. Licensed under the GNU Affero General Public License v3.0.
+            <a
+              href="https://github.com/upathare1/CreditApp"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="font-medium text-primary hover:underline"
+            >
+              Source code on GitHub.
+            </a>
           </p>
           <p class="mx-auto mt-1 max-w-4xl text-center text-xs leading-5 text-muted">
             Comparisons are estimates for planning purposes only. Reward rates, fees, credits, and issuer terms can change.
